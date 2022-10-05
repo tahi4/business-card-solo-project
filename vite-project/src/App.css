@@ -1,0 +1,85 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.Main{
+  width: 320px;
+  height: 670px;
+  background-color: #1a1b21;
+  border-radius: 10px;
+  /* display: table; */
+  /* later on helps us push footer down, while maintaining rounded edges */
+  display: flex;
+  /* ^trying to change it to inline block here, however will misplace the footer location */
+  flex-direction: column;
+}
+.profilePic{
+  width: 320px;
+  height: 320px;
+}
+
+.website{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  padding: 5px;
+  line-height: 150%;
+}
+
+
+
+.name{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  padding: 2px;
+}
+.job{
+  color: #F3BF99;
+  /* font-family: Inter; */
+  font-style: normal;
+  font-weight: 400;
+   padding-bottom: 2px; 
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+
+}
+
+
+.description{
+  text-align: left;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+  font-style: normal;
+  width: 245px ;
+}
+
+.section{
+  height: 201px;
+width: 250px;
+margin-left: 40px;
+text-align: center;
+}
+
+.category{
+  text-align: left;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 5px;
+}
+
+.btns{
+  
+  /* centers buttons side by side */
+  display: flex;
+  justify-content: center;
+  
+}

@@ -1,0 +1,22 @@
+#root {
+    /* max-width: 1280px; */
+     margin: 0 auto; 
+      padding: 2rem;
+    text-align: center;
+  }
+
+  footer{
+    background-color: black;
+    border-radius: 0px 0px 10px 10px;
+    /* display: table-row; */
+    /* pushes the footer to floor while keeping edges */
+   margin-top: auto;
+    
+  }
+  footer > form {
+   justify-content: space-between;
+   padding-left: 20px;
+   /* for some reason display:flex makes the icons stack over each other here, but giving inline block solves issue!! yay  */
+   display: inline-block;
+    justify-content: center; 
+  } 
